@@ -17,7 +17,7 @@ body {
   padding: 48px 0;
   width: 100%;
   height: 100%;
-  max-width: 1400px;
+  
   background: var(--bg-color);
   color: var(--text-color);
   overflow-x: hidden;
@@ -88,6 +88,7 @@ h2 {
 /* Grid implementation */
 .grid-container {
   width: 90vw;
+  max-width: 1400px;
   /*border: 1px solid var(--text-color);*/
   display: grid;
   gap: 10px;
